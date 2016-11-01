@@ -3,11 +3,11 @@ using Xunit;
 
 namespace DotNetCore.Test
 {
-    public class Program_AddShould
+    public class Joust_AddShould
     {
         private readonly IJoust solution;
 
-        public Program_AddShould()
+        public Joust_AddShould()
         {
             solution = new Program();
         }
