@@ -1,0 +1,10 @@
+# vs code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# dotnet core
+bin
+obj
+project.lock.json
