@@ -1,5 +1,4 @@
-﻿using System;
-using DotNetCore.Joust;
+﻿using DotNetCore.Joust;
 using Xunit;
 
 namespace DotNetCore.Test
