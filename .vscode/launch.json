@@ -6,11 +6,11 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/src/DotNetCore.Joust/bin/Debug/<target-framework>/<project-name.dll>",
+            "program": "${workspaceRoot}/src/DotNetCore.Joust/bin/Debug/netcoreapp1.0/DotNetCore.Joust.dll",
             "args": [],
             "cwd": "${workspaceRoot}/src/DotNetCore.Joust",
             "stopAtEntry": false,
-            "externalConsole": false
+            "externalConsole": true
         },
         {
             "name": ".NET Core Attach",
