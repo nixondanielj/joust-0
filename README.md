@@ -5,6 +5,7 @@ This joust is an unofficial training joust. You can find a tutorial for completi
 Jousters will create an implementation of a link tester. Given a URL, the link tester will return true if the link:
  * Is a properly formatted http(s) link
  * Returns a "Success" class status code in response to a GET request after following any redirects
+
 and false in any other scenario.
 
 Folder structure for this joust is as follows:
