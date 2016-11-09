@@ -9,7 +9,7 @@ namespace DotNetCore.Test
 
         public Joust_IsLinkValidShould()
         {
-            solution = null;
+            solution = new LinkTester();
         }
 
         [Fact]
