@@ -1,37 +1,20 @@
-# Onshore Jousts Sample
+# Joust 0: Link Tester (Training)
 
-Looking to get started? [Take a look at the wiki!](https://github.com/onshore-jousts/joust-core/wiki)
+This joust is an unofficial training joust. You can find a tutorial for completing it in the [Onshore Jousts wiki](https://github.com/onshore-jousts/joust-core/wiki).
 
-This repository contains the core components of the Onshore Jousts system and is the starting point for all new jousts.
-
-Folder structure for new jousts is as follows:
+Folder structure for this joust is as follows:
  * /src (contains all starting code)
- * /res (contains necessary resources: images, xml files, etc.)
- * /data (contains any required SQL or database files)
  * /test (contains provided test cases)
- * /tools (executable tools)
  * .gitignore
  * README.md
 
-The README.md file of the joust should adhere (more or less) to the following template:
-
-# Joust {#}: {Title}
-{ Joust Overview }
-
 ### Setup Instructions
-1. { Step 1 }
-2. { Etc. }
+1. Fork and clone the repository ([see the quickstart if you need help](https://github.com/onshore-jousts/joust-core/wiki/Quickstart))
+2. Restore all dependencies when prompted
+3. You're all set!
 
 ### Testing Instructions
-1. { Step 1 }
-2. { Etc. }
-
-### Available Branches
- * { Branch }: { Description }
+See the tutorial or the quickstart in the [wiki](https://github.com/onshore-jousts/joust-core/wiki).
 
 ### Scoring Considerations
- * { Consideration }
-
-### Resources
- * { [External Resource 1](https://www.google.com) }
- * { Etc. }
+As this is a practice joust, no official scoring will take place
