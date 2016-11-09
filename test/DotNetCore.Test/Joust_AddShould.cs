@@ -3,20 +3,21 @@ using Xunit;
 
 namespace DotNetCore.Test
 {
-    public class Joust_AddShould
+    public class Joust_IsLinkValidShould
     {
         private readonly IJoust solution;
 
-        public Joust_AddShould()
+        public Joust_IsLinkValidShould()
         {
-            solution = new Program();
+            // TODO: create system under test
+            solution = null;
         }
 
         [Fact]
-        public void ReturnFourAddingTwoAndTwo()
+        public void ReturnTrueForOnshore()
         {
-            int result = solution.Add(2, 2);
-            Assert.Equal(result, 4);
+            bool result = solution.IsLinkValid("https://onshoreoutsourcing.com");
+            Assert.True(result);
         }
     }
 }
